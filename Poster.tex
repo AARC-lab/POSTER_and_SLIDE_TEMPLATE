@@ -1,6 +1,9 @@
 \documentclass[final]{beamer}
 
-\usepackage[orientation=landscape,size=a0,scale=1.2]{beamerposter} 
+% \usepackage[orientation=landscape,size=a0,scale=1.2]{beamerposter} 
+% 4ft = 121.92cm, 5ft = 152.4cm
+% Based on your current "landscape" orientation:
+\usepackage[orientation=landscape,size=custom,width=152.4,height=121.92,scale=1.2]{beamerposter}
 
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
@@ -245,6 +248,11 @@
             \item \textbf{Barren Plateau Mitigation:} Successfully trains deep random circuits where classical optimizers fail.
             \item \textbf{Robustness:} Maintains stability ($<$5\% fluctuation) under NISQ noise.
         \end{itemize}
+    \end{block}
+
+    \begin{block}{\textbf{Acknowledgements}}
+        \small
+        This work was supported by a Graduate Research Assistantship at the AARC Lab, Department of Electrical and Computer Engineering, University of Alabama in Huntsville. The author would like to thank Md Saiful Islam and Sophia Vanderwaal for some clarifications on issues related to control systems and physics, respectively.
     \end{block}
 
     \begin{block}{\textbf{References}}
